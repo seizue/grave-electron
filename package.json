@@ -1,0 +1,15 @@
+{
+  "name": "grave-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Seizue",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^29.1.0"
+  }
+}

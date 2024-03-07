@@ -1,0 +1,118 @@
+/* Existing styles */
+body {
+  background-color: rgb(29, 33, 38);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #252731;
+  padding: 10px;
+  text-align: left;
+  margin: 0;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.banner {
+  background-color: rgb(35, 39, 46);
+  background-image: url('img/banner.jpg');
+  height: 180px;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  width: 70%;
+  margin: 0 center;
+  position: absolute; /* Set the position to absolute */
+  top: 50px; /* Adjust the top position to your liking */
+  left: 15.5%; /* Adjust the left position to your liking */
+}
+
+.encryption-area {
+  flex: 1; /* This will make both areas take up equal space */
+  padding: 20px;
+  background-color: #23272E;
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+
+.encryption-area h2 {
+  margin-top: 0;
+}
+
+
+/* Updated styles for input and button */
+input[type="password"],
+input[type="file"] {
+  width: calc(100% - 40px); /* Adjust as needed */
+  padding: 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #272A36; /* Darker background */
+  color: white;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+input[type="password"]:focus,
+input[type="file"]:focus {
+  background-color: #2E313D; /* Darker background on focus */
+}
+
+input[type="file"] {
+  cursor: pointer;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  padding: 10px 20px; /* Adjust as needed */
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50; /* Green color */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Updated styles for the encrypt button */
+button#encryptButton{
+  width: calc(100% - 40px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+button#encryptButton {
+  background-color: #4caf50; /* Green color */
+  color: white;
+}
+
+
+
+/* Styles for button hover and focus states */
+button#encryptButton:hover {
+  background-color: #45a049; /* Darker green/blue on hover */
+}
+
+
+

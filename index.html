@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grave</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>Grave</h1>
+        </nav>
+    </header>
+    <div class="banner"></div>
+    <div class="container">
+      <div class="container">
+        <div class="encryption-area">
+          <h2>ENCRYPT</h2>
+          <input type="password" id="password" placeholder="Enter password for encryption">
+          <p> 
+          <div id="fileDropArea">Drop files here to Encrypt</div>
+        </p>
+          <input type="file" id="fileInput">
+          <button id="encryptButton">Encrypt</button>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+</body>
+</html>
